@@ -6,6 +6,8 @@ API service for cinema management. Written on Django REST Framework.
 ![Website Interface](img.png)
 
 ## Installing
+Python3 must be already installed!
+
 To begin you need to create a DB in PostgresSQL.
 
 ```shell
@@ -33,10 +35,10 @@ docker-compose up
 
 ## Getting access
 * create user -> /api/user/register/
-* get access token /api/user/token
-* Use ModHead for your browser:
+* get access token -> /api/user/token
+* Use [ModHead](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj) for your browser:
   
-    create request header (Authorization Bearer your access token)
+    create request header (Authorization Bearer [your access token])
 
 ## Features
 
