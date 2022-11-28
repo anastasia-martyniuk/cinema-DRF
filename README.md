@@ -5,6 +5,17 @@ API service for cinema management. Written on Django REST Framework.
 
 ![Website Interface](img.png)
 
+## Features
+
+What's all the bells and whistles this project can perform?
+* Powerful admin panel -> /admin/
+* Complete documentation -> /api/doc/swagger/ or /api/doc/redoc/
+* You can register -> /api/user/register/ and get a token -> /api/user/token/
+* Creating genres, actors, cinema halls, movie with genres and actors, movie session with movie and cinema hall, order with tickets
+* Adding image to movie -> /api/cinema/movie/pk/
+* Managing orders and tickets
+* Filtering movies and movie sessions
+
 ## Installing
 Python3 must be already installed!
 
@@ -39,14 +50,3 @@ docker-compose up
 * Use [ModHead](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj) for your browser:
   
     create request header (Authorization Bearer [your access token])
-
-## Features
-
-What's all the bells and whistles this project can perform?
-* Powerful admin panel -> /admin/
-* Complete documentation -> /api/doc/swagger/ or /api/doc/redoc/
-* You can register -> /api/user/register/ and get a token -> /api/user/token/
-* Creating genres, actors, cinema halls, movie with genres and actors, movie session with movie and cinema hall, order with tickets
-* Adding image to movie -> /api/cinema/movie/pk/
-* Managing orders and tickets
-* Filtering movies and movie sessions
